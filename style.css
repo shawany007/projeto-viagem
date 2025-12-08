@@ -1,90 +1,164 @@
-*{
-    
-    padding: 0%;
-    margin: 0%;
-    }
-    
-    h1{
-        color: grey;
-        font-size: 20px;
-        padding: 15px;
-    }
-    li a{
-    
-        text-decoration: none;
-        color: #000;
-        font-size: 20px;
-        padding: 25px;
-     }
-    
-     .p{
-        color:#ffff;
-        font-size: 20px;
-        padding: 25px;
-     }
-    
-    
-    ul{
-        display: flex; /*ativa a propriedade de alinhamento*/
-        flex-direction: row; /*coloca os elementos na horizontal*/
-    }
-    
-    li{
-    list-style: none; /*remove os pontos das lista*/
-    }
-    
-    nav{
+.orglogo {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    }
-    
-    .btn{
-        background-color: #EB662B;
-        border-radius: 55px;
-        height: 44px;
-        width: 83.3px;
-        border: none;
-        color: #ffffff;
-     }
-    
-    
-    .logo{
-    height: 25px;
-    width: 35px;
-     }
+   gap: 40px;
+  justify-content: start;
+  justify-content: space-around;
+  width: 35%;
+ 
 
-     .banner{
-        height: 630px;
-        width: 1600px;
-        background-image: url("./assentns/banner.jpg"); /*ele adiciona uma imagem como fundo*/
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        align-items: center;
-        color: #ffffff;
-        }
-        .banner-estrutura{
-            width: 400px;
-            margin: 30px;
-         }
-         
-         .section-banner {
-            display: flex;
-            justify-content: center;  /* Centraliza horizontalmente */
-            padding: 40px 0;   /* Mantém espaço ao redor */
-            color: grey;
-            }
-        
-            .titulo {
-           color: #ffffff;
-           font-size: 35px;
-           font-weight: bold;
-           }
-        
-            .estrutura-titulo{
-           justify-content: center;
-           display: flex;
-           padding: 30px;
-          }
+}
+
+#logo {
+
+    height: 40px;
+    width: 200px;
+}
+
+#login {
+
+    background-color: #Eb662B;
+    border: solid  #Eb662B 15px;
+    border-radius: 40px;
+    color: aliceblue;
+   
+
+
+}
+p{
+   color: slategrey;
+}
+
+.categoriasnav {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: end;
+    gap: 80px;
+    width: 105%;
+    font-size: 17px;
+  
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+
+}
+
+ul {list-style: none;
+
+}
+
+.orgnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 250px;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    height: 100px;
+   
+   
+}
+
+.banner {
+
+    background-image: url("assets/banner.jpg"); 
+    width: 1800px;
+    height: 700px;
+    border-radius: 15px;
+    display: flex;
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.titulobanner {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px; 
+    color: white;
+}
+
+h1 {
+    font-size: 85px;
+    height: 49px;
+    
+}
+
+.botaocaixapesquisa {
+
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    border: solid 1px;
+}
+
+.textocaixapesquisa {
+
+    color: black;
+    font-size: 16px;
+    height: 90%;
+
+}
+
+.subtitulocaixasearch {
+
+    color: #717171;
+}
+
+.orgcaixapesquisa {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-left: 10px;
+}
+
+.caixa-pesquisa {
+
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    background-color: aliceblue;
+    width: 890px;
+    border-radius: 20px;
+}
+
+.botaosearch {
+
+    width: 136px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 18px;
+    border: none;
+    background-color: #Eb662B;
+    color: white;
+}
+
+.orgbotaosearch {
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+.segundaparte{
+   background-image: url("./assets/1-1.png");
+   width: 60px;
+    height: 60px;
+  border: none;
+}
+
